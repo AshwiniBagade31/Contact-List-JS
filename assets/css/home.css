@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font for the entire page */
+    background-color: #f0f0f0; /* Background color for the entire page */
+    color: #333; /* Text color for the entire page */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-header {
+    font-size: 1.8rem; /* Increase header font size */
+    margin-top: 20px;
+    color: #4a90e2; /* Header text color */
+}
+
+#contact-list-container {
+    margin: 10px;
+}
+
+#contact-list-container ul {
+    padding: 0;
+    list-style: none;
+    background-color: #f4f4f4; /* Change the background color of the contact list */
+    width: 600px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff; /* Change the background color of each contact */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333; /* Change text color */
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    font-size: 1.2rem; /* Increase font size for contact details */
+    width: 100%; /* Use the full width available */
+    margin: 5px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-button {
+    font-size: 1.5rem; /* Increase font size for the delete button */
+    padding: 5px; /* Increase padding */
+    text-align: center;
+    background-color: #ff5757; /* Change the button background color */
+    display: flex; /* Use flex to create space between elements */
+    justify-content: space-between; /* Equally space the elements */
+    align-items: center; 
+}
+
+.delete-button a {
+    color: #fff; /* Change the link color to white */
+}
+
+#form-container {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #f4f4f4; /* Match the contact list background color */
+    padding: 20px;
+}
+
+#form-container input {
+    background-color: #ffffff; /* Input field background color */
+    border: none;
+    border-bottom: 2px solid #8fc0f1;
+    margin: 10px;
+    font-size: 1rem;
+    color: #333; /* Input text color */
+}
+
+#form-container button {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc; /* Change the button border color */
+    background-color: #4a90e2; /* Match the header text color */
+    font-size: 1rem;
+    color: #fff; /* Button text color */
+}
